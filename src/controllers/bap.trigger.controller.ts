@@ -92,7 +92,7 @@ export const bapClientTriggerSettler = async (message: AmqbLib.ConsumeMessage | 
         }
         else{
             const subscribers=await registryLookup({
-                type: NetworkPaticipantType.BAP,
+                type: NetworkPaticipantType.BPP,
                 domain: requestBody.context.domain
             });
 
