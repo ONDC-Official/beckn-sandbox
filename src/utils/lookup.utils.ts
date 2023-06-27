@@ -55,7 +55,7 @@ export async function getSubscriberDetails(subscriber_id: string, unique_key_id:
     try {
         const subsribers = await registryLookup({
             subscriber_id: subscriber_id,
-            unique_key_id: unique_key_id
+            ukId: unique_key_id
         })
 
         if (subsribers!.length == 0) {
