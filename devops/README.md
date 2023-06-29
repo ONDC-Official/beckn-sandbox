@@ -4,7 +4,8 @@ Copy the deploy.sh file to home directory
 ```bash
 cp deploy.sh ~/
 ```
-Below are the links for samples for default.yml file.
+Below are the links for samples for the default.yml file.
+
 |---|
 | [default-bap-client.yml](https://github.com/ONDC-Official/beckn-sandbox/blob/develop/config/samples/bap-client.yaml) |
 | [default-bap-network.yml](https://github.com/ONDC-Official/beckn-sandbox/blob/develop/config/samples/bap-network.yaml) |
