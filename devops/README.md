@@ -1,6 +1,6 @@
-## Deployment Setps. 
+## Deployment Steps. 
 
-Copy the deploy.sh file to home directory
+Copy the deploy.sh file to the home directory
 ```bash
 cp deploy.sh ~/
 ```
@@ -13,10 +13,13 @@ Below are the links for samples for the default.yml file.
 | [default-bpp-network.yml](https://github.com/ONDC-Official/beckn-sandbox/blob/develop/config/samples/bpp-network.yaml) |
 
 
-Edit the file and change the port number in default-bpp.yml or default-bap.yml file as per the requirement at below line.
-default-client.yml 
 
-To create the default.yml please follow the developers guide 
+
+Edit the deploy.sh script and pass the correct **port number** and **default_yml** as per the requirement at the below line.
+
+Also, add/change the cp with default.yml file in deploy.sh script.
+
+To create the default.yml please follow the developer's guide.
 
 ```bash
 cp Dockerfile default-bap-client.yml default-bap-network.yml ~/beckn-sandbox
