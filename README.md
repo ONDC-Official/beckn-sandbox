@@ -129,6 +129,9 @@ npm i -g pm2
 pm2 start ecosystem.config.js
 ```
 
+### Docker setup 
+For the docker setup please follow [this] (https://github.com/ONDC-Official/beckn-sandbox/blob/develop/devops/README.md) link 
+
 **NOTE:** If the same server is used to host both the instances of Protocol Server, then make sure to edit the app name in ecosystem.config.js file as per the instance.
 
 ### License
